@@ -18,7 +18,6 @@ Startups and e-commerce companies often deal with messy, human-entered data. Thi
 
 ## 📦 How to Run
 1. Clone the repository:
-   ```bash
   https://github.com/ShiroSNS/Data-Cleaning-Automation-Pipeline
 
 2. Install dependencies:
