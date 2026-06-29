@@ -18,12 +18,13 @@ Startups and e-commerce companies often deal with messy, human-entered data. Thi
 
 ## 📦 How to Run
 1. Clone the repository:
+
   https://github.com/ShiroSNS/Data-Cleaning-Automation-Pipeline
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install pandas numpy
 
-3. Execute the pipeline:
+4. Execute the pipeline:
     ```bash
    python cleaner.py
