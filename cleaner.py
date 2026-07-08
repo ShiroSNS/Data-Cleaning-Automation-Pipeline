@@ -48,7 +48,7 @@ revenue_report = revenue_report.sort_values(by='Total_Revenue', ascending=False)
 print("\nTotal Revenue by Product:")
 print(revenue_report.to_string(index=False))
 
-# 5. Export
+#Export
 print("\n--- Exporting ---")
 df.to_csv('clean_warehouse_data.csv', index=False)
 print("SUCCESS: Clean data saved to 'clean_warehouse_data.csv'!")
