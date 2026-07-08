@@ -13,7 +13,7 @@ print(df.head())
 print("\n--- Dataset Info (Look for the missing values here) ---")
 print(df.info())
 
-# 3. Cleaning the Data
+#Cleaning the Data
 print("\n--- Starting Data Cleaning ---")
 
 # A. Drop rows where 'Product ID' or 'Product Name' is missing (Updated column names)
