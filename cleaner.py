@@ -29,7 +29,7 @@ df['Quantity'] = df['Quantity'].fillna(1)
 #Clean the 'Product Name' text (Updated column name)
 df['Product Name'] = df['Product Name'].str.strip().str.title()
 
-# E. Remove any exact duplicate rows
+#Remove any exact duplicate rows
 df.drop_duplicates(inplace=True)
 
 print("Data Cleaning Complete. Missing values remaining:")
