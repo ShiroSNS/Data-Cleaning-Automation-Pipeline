@@ -4,7 +4,6 @@ import numpy as np
 url = "https://raw.githubusercontent.com/eyowhite/Messy-dataset/main/warehouse_messy_data.csv"
 print("Downloading dirty dataset...\n")
 
-# Load the data into a Pandas DataFrame
 df = pd.read_csv(url)
 
 # 2. Inspecting the damage
