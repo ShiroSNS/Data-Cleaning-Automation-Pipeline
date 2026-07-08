@@ -16,7 +16,7 @@ print(df.info())
 #Cleaning the Data
 print("\n--- Starting Data Cleaning ---")
 
-# A. Drop rows where 'Product ID' or 'Product Name' is missing (Updated column names)
+#Drop rows where 'Product ID' or 'Product Name' is missing (Updated column names)
 df.dropna(subset=['Product ID', 'Product Name'], inplace=True)
 
 # B. Force the 'Quantity' column to be numbers. 
