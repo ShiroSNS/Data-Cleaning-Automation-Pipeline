@@ -26,7 +26,7 @@ df['Quantity'] = pd.to_numeric(df['Quantity'], errors='coerce')
 #Fill missing 'Quantity' values with 1
 df['Quantity'] = df['Quantity'].fillna(1)
 
-# D. Clean the 'Product Name' text (Updated column name)
+#Clean the 'Product Name' text (Updated column name)
 df['Product Name'] = df['Product Name'].str.strip().str.title()
 
 # E. Remove any exact duplicate rows
