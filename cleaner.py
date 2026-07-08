@@ -23,7 +23,7 @@ df.dropna(subset=['Product ID', 'Product Name'], inplace=True)
 # (If you look at Row 1, someone typed "two hundred" instead of 200. This forces text to turn into blanks so we can fix them).
 df['Quantity'] = pd.to_numeric(df['Quantity'], errors='coerce')
 
-# C. Fill missing 'Quantity' values with 1
+#Fill missing 'Quantity' values with 1
 df['Quantity'] = df['Quantity'].fillna(1)
 
 # D. Clean the 'Product Name' text (Updated column name)
