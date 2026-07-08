@@ -6,7 +6,7 @@ print("Downloading dirty dataset...\n")
 
 df = pd.read_csv(url)
 
-# 2. Inspecting the damage
+#Inspecting the damage
 print("--- First 5 Rows of the Dataset ---")
 print(df.head())
 
