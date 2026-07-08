@@ -35,7 +35,7 @@ df.drop_duplicates(inplace=True)
 print("Data Cleaning Complete. Missing values remaining:")
 print(df.isnull().sum())
 
-# 4. Aggregation (Calculating Business Metrics)
+#Aggregation (Calculating Business Metrics)
 print("\n--- Generating Business Report ---")
 
 # Calculate Total Revenue
