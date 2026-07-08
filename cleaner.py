@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# 1. Fetching the messy dataset directly from a raw GitHub repository
 url = "https://raw.githubusercontent.com/eyowhite/Messy-dataset/main/warehouse_messy_data.csv"
 print("Downloading dirty dataset...\n")
 
