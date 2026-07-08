@@ -19,7 +19,7 @@ print("\n--- Starting Data Cleaning ---")
 #Drop rows where 'Product ID' or 'Product Name' is missing (Updated column names)
 df.dropna(subset=['Product ID', 'Product Name'], inplace=True)
 
-# B. Force the 'Quantity' column to be numbers. 
+#Force the 'Quantity' column to be numbers. 
 # (If you look at Row 1, someone typed "two hundred" instead of 200. This forces text to turn into blanks so we can fix them).
 df['Quantity'] = pd.to_numeric(df['Quantity'], errors='coerce')
 
