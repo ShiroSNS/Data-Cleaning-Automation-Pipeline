@@ -38,10 +38,10 @@ print(df.isnull().sum())
 #Aggregation (Calculating Business Metrics)
 print("\n--- Generating Business Report ---")
 
-# Calculate Total Revenue
+#Calculate Total Revenue
 df['Total_Revenue'] = df['Quantity'] * df['Price']
 
-# Group by 'Product Name' (Updated column name)
+#Group by 'Product Name' (Updated column name)
 revenue_report = df.groupby('Product Name')['Total_Revenue'].sum().reset_index()
 revenue_report = revenue_report.sort_values(by='Total_Revenue', ascending=False)
 
