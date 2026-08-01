@@ -10,6 +10,7 @@ df = pd.read_csv(url)
 print("--- First 5 Rows of the Dataset ---")
 print(df.head())
 
+
 print("\n--- Dataset Info (Look for the missing values here) ---")
 print(df.info())
 
